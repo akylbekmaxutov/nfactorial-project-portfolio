@@ -1,0 +1,295 @@
+body {
+  background-color: #5b507a;
+  color: #FFFFFF;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  padding-top: 2%; 
+}
+
+.App-card {
+  background-color: #5b618a;
+  padding: 4% 6%;
+  border-radius: 2vmin;
+  box-shadow: 7px 5px 30px 0px rgba(0,0,0,0.76);
+}
+
+.App-line {
+  background-color: #9eadc8;
+  height: 0.1vmin;
+  border-radius: 2vmin;
+  box-shadow: 7px 5px 30px 0px rgba(0,0,0,0.76);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header__MyName {
+  display: flex;
+  width: 60%;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 32px;
+}
+
+.App-header__NavInfo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  list-style-type: none;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-main {
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+
+.App-main__Me {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-main__WhoAmI {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.App-main__Button {
+  margin-top: 2%;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 18px;
+  background: #9eadc8;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border-style: none;
+}
+
+.App-about {
+  padding-top: 10%;
+  padding-bottom: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-about__Info {
+  width: 70%;
+}
+
+.App-about__Me {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-about__ExtraInfo {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.App-about__BulletInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-about__BulletInfo-Col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.App-about__BulletInfo-Col-elems{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 18px;
+}
+
+.App-about__Logos {
+  height: auto; 
+  width: auto; 
+  max-width: 1vmin; 
+  max-height: 1vmin;
+  transform: scale(0.2,0.2);
+}
+
+.App-about__Avatar {
+  margin-top: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.App-about__Avatar img {
+  border-radius: 2vmin;
+  box-shadow: 7px 5px 30px 0px rgba(0,0,0,0.76);
+}
+
+.App-experience {
+  padding-top: 8%;
+  padding-bottom: 11%;
+}
+
+.App-experience h1 {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-experience__Info {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.App-experience__Info-years {
+  width: 20%;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.App-experience__Detailed {
+  width: 80%;
+}
+
+.App-experience__Info-role {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 18px;
+}
+
+.App-experience__Info-City {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+}
+
+.App-experience__Info-Obligations {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+}
+
+.App-projects {
+  padding-top: 8%;
+  padding-bottom: 11%;
+}
+
+.App-projects h1 {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-projects__Gallery1 {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.App-projects__Gallery-image1 {
+  max-width: 85%;
+  height: auto;
+  border-radius: 2vmin;
+  box-shadow: 7px 5px 30px 0px rgba(0,0,0,0.76);
+}
+
+.App-projects__Gallery2 {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.App-projects__Gallery-image2 {
+  max-width: 90%;
+  height: auto;
+  border-radius: 2vmin;
+  box-shadow: 7px 5px 30px 0px rgba(0,0,0,0.76);
+}
+
+.App-projects__Gallery-desc-title {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 28px;
+}
+
+.App-projects__Gallery-desc-tools {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 24px;
+}
+
+.App-projects__Gallery-desc-desc {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.App-contacts {
+  padding-top: 8%;
+  padding-bottom: 11%;
+}
+
+.App-contacts h1{
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-footer {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #081E34; 
+}
+
+.App-footer__made {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.App-footer__credits {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FFFFFF; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
